@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1140px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#header-top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    gap: 20px;
+}
+
+#header-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+#first_section {
+    background-image: url(https://preview.colorlib.com/theme/coffee/img/header-bg.jpg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#header-bottom nav a {
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#first_section div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+#first_section h5 {
+    font-size: 14px;
+    color: white;
+}
+
+#first_section h2 {
+    font-size: 60px;
+    line-height: 72px;
+    color: white;
+}
+
+#first_section button {
+    width: 150px;
+    height: 38px;
+    background-color: #ffff;
+    border: 1px solid transparent;
+    color: #222;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+#first_section button:hover {
+    background-color: transparent;
+    color: white;
+    transition: 0.6s;
+    border: 1px solid white;
+}
+
+#second_section .container {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+}
+
+#second_section .container>div {
+    width: 45%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+#video {
+    border-radius: 20px;
+    position: relative;
+}
+
+#video:after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.78);
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+
+#video>img {
+    width: 100%;
+    height: 100%;
+}
+
+#play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#second_text h4 {
+    color: rgb(34, 34, 34);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.2em;
+}
+
+#second_text span {
+    font-size: 15px;
+    line-height: 1.625em;
+    margin: 20px 0 16px 0;
+    display: block;
+}
+
+#second_text p {
+    color: #777777;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.625em;
+}
+
+#third_section {
+    background: url(https://preview.colorlib.com/theme/coffee/img/menu-bg.jpg) center;
+}
+
+#third_section .container {
+    height: 900px;
+    background-size: cover;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.kind {
+    height: 160px;
+    margin-top: 100px;
+    width: 1140px;
+    text-align: center;
+}
+
+.what_k {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.gray_text {
+    font-size: 15px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#coffee_k {
+    width: 1140px;
+    height: 550px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.kinds_of_coffee {
+    width: 30%;
+    height: 150px;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h4 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.price_text {
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+    color: orange;
+    font-weight: 500;
+}
+
+.usage_text {
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 18px;
+    font-weight: 400;
+}
+
+#fourth_section {
+    height: 1120px;
+}
+
+#fourth_section .container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#first_img {
+    width: 372px;
+    height: 730px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#second_img {
+    width: 747px;
+    height: 741px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#fivth_section {
+    background-color: rgb(182, 136, 52);
+}
+
+#fivth_section .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text_fivth_section {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row_img {
+    display: flex;
+    justify-content: center;
+    justify-content: left;
+    display: block;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+.lorem_ipsum {
+    display: block;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.ipsum_text {
+    width: 620px;
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+#under_text {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.number {
+    display: inline-block;
+    width: 140px;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 100;
+}
+
+#under_number {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#under_number {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#sixth_section {
+    height: 900px;
+}
+
+#sixth_section .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#happiness {
+    display: flex;
+    justify-content: space-between;
+}
+
+.happy {
+    width: 555px;
+}
+
+.portable {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.gambl {
+    height: 200px;
+    width: 555px;
+    display: inline-block;
+}
+
+footer {
+    background-image: url("https://preview.colorlib.com/theme/coffee/img/footer-bg.jpg.webp");
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_d {
+    height: 170px;
+    width: 510px;
+    padding-top: 160px;
+}
